@@ -1,0 +1,20 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background rectangle -->
+  <rect width="300" height="200" fill="#f0f0f0"/>
+
+  <!-- Developer icon -->
+  <circle cx="75" cy="100" r="30" fill="#76b5c5"/>
+  <rect x="55" y="140" width="40" height="40" fill="#76b5c5"/>
+  <text x="75" y="100" font-family="Arial" font-size="20" fill="white" text-anchor="middle" alignment-baseline="middle">&#128187;</text>
+
+  <!-- Customer icon -->
+  <circle cx="225" cy="100" r="30" fill="#ffab91"/>
+  <rect x="205" y="140" width="40" height="40" fill="#ffab91"/>
+  <text x="225" y="100" font-family="Arial" font-size="20" fill="white" text-anchor="middle" alignment-baseline="middle">&#128100;</text>
+
+  <!-- Connecting line -->
+  <line x1="105" y1="100" x2="195" y2="100" stroke="#000" stroke-width="2" stroke-dasharray="5,5"/>
+
+  <!-- Collaboration text -->
+  <text x="150" y="70" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">Collaborating with Customers</text>
+</svg>

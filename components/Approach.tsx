@@ -14,10 +14,8 @@ const Approach = () => {
         {/* add des prop */}
         <Card
           title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          icon={<AceternityIcon order="Stage 1" />}
+          des="In the initiation and planning phase, the project scope, objectives, and deliverables are clearly defined to align with business goals. Stakeholders are engaged early on to gather their requirements, and a comprehensive project plan is developed, covering timelines, resources, and budget. Potential risks are identified, and mitigation strategies are formulated. An iteration plan is also outlined to set expectations for regular feedback sessions, ensuring that continual value is delivered through iterative work cycles and customer feedback loops."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          title="Data Collection & Preparation"
+          icon={<AceternityIcon order="Stage 2" />}
+          des="During data collection and preparation, relevant data is gathered from various sources, emphasizing quality and relevance. The data is then cleaned to remove inconsistencies and integrated into a unified dataset. Initial exploratory analysis is performed to understand data patterns, which informs future iterations. Throughout this phase, regular feedback sessions with stakeholders help refine data requirements and ensure the project remains aligned with customer needs, creating a dynamic feedback loop that drives continual value."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,15 +44,24 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          title="Analysis & Modeling"
+          icon={<AceternityIcon order="Stage 3" />}
+          des="Relevant features are selected and created to enhance the model. Various models are developed and tested, and initial findings are presented to stakeholders for feedback. This iterative process allows for model refinement based on stakeholder input. Models are validated with separate datasets to ensure accuracy, and all methodologies and assumptions are documented. Continuous communication with customers during this phase ensures that their feedback is incorporated, enabling iterative improvements and maintaining the project's alignment with business objectives."
         >
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
+            colors={[[125, 211, 252]]}
+          />
+        </Card>
+        <Card
+          title="Deployment & Monitoring"
+          icon={<AceternityIcon order="Stage 4" />}
+          des="Implementation of the models in a production environment and continuously monitoring their performance. Regular feedback from users is collected to identify areas for improvement, enabeling iterative enhancements. Performance data is used to make necessary adjustments, ensuring the models continue to deliver value. Transparent reporting through dashboards and reports keeps stakeholders informed of results and insights. This ongoing cycle of feedback and iteration ensures that the project evolves to meet customer needs and maintain its effectiveness over time."
+        >
+          <CanvasRevealEffect
+            animationSpeed={3}
+            containerClassName="bg-emerald-600 rounded-3xl overflow-hidden"
             colors={[[125, 211, 252]]}
           />
         </Card>
@@ -113,7 +118,7 @@ const Card = ({
         )}
       </AnimatePresence>
 
-      <div className="relative z-20 px-10">
+      <div className="relative z-20 px-1">
         <div
           // add this for making it center
           // absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]
